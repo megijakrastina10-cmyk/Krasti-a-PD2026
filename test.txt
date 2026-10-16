@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PD2026 - Mans projekts</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="navigation">
+        <h1>PD2026</h1>
+
+        <ul>
+            <li><a href="#sakums">Sākums</a></li>
+            <li><a href="#par">Par projektu</a></li>
+            <li><a href="#kontakti">Kontakti</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section id="sakums" class="hero">
+        <div class="hero-content">
+            <p class="subtitle">Programmēšanas darbs 2026</p>
+
+            <h2>Mana pirmā modernā mājaslapa</h2>
+
+            <p>
+                Šis projekts demonstrē HTML struktūru,
+                CSS dizainu, animācijas un attēlu izmantošanu.
+            </p>
+
+            <a class="button" href="#par">Uzzināt vairāk</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="img/hero.jpg" alt="Dators un programmēšana">
+        </div>
+    </section>
+
+    <section id="par" class="about">
+        <h2>Par projektu</h2>
+
+        <div class="cards">
+
+            <article class="card">
+                <h3>HTML</h3>
+                <p>
+                    Izveidota semantiska HTML struktūra
+                    ar navigāciju un sadaļām.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>CSS</h3>
+                <p>
+                    Pievienots moderns dizains,
+                    krāsas, ēnas un responsīvs izkārtojums.
+                </p>
+            </article>
+
+            <article class="card">
+                <h3>Animācijas</h3>
+                <p>
+                    Izveidotas CSS animācijas,
+                    lai lapa būtu interaktīvāka.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+    <section id="kontakti" class="contact">
+        <h2>Kontakti</h2>
+        <p>Ja vēlies uzzināt vairāk par projektu, sazinies ar mani.</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 PD2026 projekts</p>
+</footer>
+
+</body>
+</html>
